@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    padding: 20px 0px;
+}
+.mr-n1{
+    margin-right: -0.5rem;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+#dropdownMenuButton1:hover{
+    border:2px solid pink;
+    border-color: pink;
+}
+.vdo{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+#video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.vdo-overlay{
+   position: absolute;
+   padding-top: 50px;
+
+}
+.btns{
+    /* border: 1px solid firebrick; */
+    justify-content: center;
+    /* overflow: scroll; */
+    /* doubt */
+}
+.bt{
+    border-radius:  50px;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+.card{
+    border: none;
+}
+#overlay{
+    display: flex;
+    font-size: large;
+    align-items: end;
+    /* border: 1px solid black; */
+}
+#overlay a{
+    text-decoration: none;
+    color: rgb(223, 223, 223);
+}
+#overlay a i {
+    /* border:1px solid black; */
+    color: black;
+    background-color: rgb(254, 255, 255);
+    /* padding: 5px; */
+    border-radius: 7px;
+}
+.design-on-card{
+    opacity: 0;
+    transition: opacity 300ms ease;
+}
+.design-on-card:hover{
+    opacity: 0.7;
+    background-color: black;
+    /* transition: opacity 300ms ease; */
+}
+#img-text{
+    display: flex;
+    flex-direction: row;
+    margin-top: -10px;
+}
+.card-body{
+    font-size: 11px;
+    justify-content: end;
+}
+#card-body{
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    /* justify-content: end; */
+}
+ .button:hover {    
+  background-color: rgb(252, 117, 139);
+  color: white;
+}
+#card-icon:hover{
+    background-color:rgb(255, 132, 152);
+}
+.submit-btn{
+    border: none;
+    background-color: rgb(255, 113, 137);
+    color: white;
+    border-radius: 5px;
+}
+.submit-btn:hover{
+    opacity: 0.7;
+}
+.signup-text{
+    text-decoration: none;
+    color: rgb(255, 113, 137);
+}
+.signup-text:hover{
+    color: rgb(255, 170, 184);
+}
+.bck-to-top {
+    position: sticky;
+    bottom: 0;
+    color: rgb(170, 166, 166);
+    opacity: 0.5;
+  }
+h4{
+    color: rgb(255, 113, 137);
+}
+
+#footer{
+    padding: 40px;
+    border-bottom: 1px solid rgb(163, 163, 163);
+    background-color: rgb(237, 237, 237);
+}
+#F-main a i{
+    font-size: larger;
+    color: black;
+    padding: 6px;
+}
+
+ #F-main , #F-content{
+    font-size: smaller;
+    padding: 7px;
+    align-content: start;
+    /* border: 1px solid goldenrod; */
+}
+#F-content li {
+    list-style: none;
+    padding: 5px;
+}
+#F-content ul a{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+#F-content li a:hover{
+    background-color: rgb(11, 41, 31);
+    color: white;
+    opacity: 0.5;
+}
+#copyright{
+    font-size: small;
+    padding: 40px;
+    background-color:  rgb(237, 237, 237);;
+}
+
+#col{
+    /* border: 1px solid green; */
+    color: rgb(113, 113, 113);
+    text-align: center;
+    justify-content: baseline;
+}
+.me-lg-n4 {
+    margin-right: -1.8rem ;
+  } 
